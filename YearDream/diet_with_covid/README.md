@@ -1,1 +1,2 @@
-### <a href='https://github.com/thsckdduq/dAIet.git'>code page</p>
+code 관련 페이지 <br>
+https://github.com/thsckdduq/dAIet.git
