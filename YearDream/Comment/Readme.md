@@ -1,6 +1,5 @@
 # 뉴스 기사의 댓글 중 편견, 혐오 표현이 포함된 댓글 식별
 - Year_Dream Project (AI Connect 대회)
-- 진행중
 
 ## Pretrained Model을 통한 학습
 - KcElectra : 'beomi/KcELECTRA-base'
