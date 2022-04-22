@@ -30,7 +30,7 @@
 
 ### Metric
 
-<img src="./img/metric.png" />
+<img src="./img/metric.png" width='400px'/>
 <br>
 
 <img src="./img/metric_score.png" width='300px' height='180px' />
@@ -43,6 +43,8 @@
 - 은메달 47 등 / 1,613 팀
 
 - Public LB Score: 0.85147 / Private LB Score: 0.81686
+
+- Code : https://github.com/YDdreammaker/dl_whale_classification
 
 - 솔루션은 [이곳](https://www.notion.so/Solution-c1be44608fc941bd9442495587a8f1e1)에서 확인하실 수 있습니다.
 <br>
@@ -67,6 +69,9 @@
 
 - Annotation 작업을 통한 Yolo를 돌리기 위한 데이터 생성
 - Inference Code 작성 (기존 코드 20분 가량 소요 -> 7분 소요되는 코드 구현)
+    - 기존의 pandas로 이루어져 있던 코드를 numpy로 수정하여 소요 시간 단축
+    - embedding 값으로 ensemble을 하기위한 코드 (Arcface Embedding값을 받아서 진행)
+    - logit 값으로 ensemble 하기위한 코드 (ArcFace Cosine값을 받아서 진행)
 - 종을 분류하기 위한 Model 실험
     - 해당 Task에서 Species를 통한 정답의 도출이 중요한 키워드라 생각하고 Species를 분류하는 모델을 위한 실험
     - Species를 분류하는 Model을 생성 후 Inference 과정에서 Species를 통한 Masking 후 Inference 하는 코드 작성 - Model이 정교화 되는 과정에서 Species를 통한 Masking이 효과가 없어짐
