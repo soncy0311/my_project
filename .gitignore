@@ -1,1 +1,6 @@
-__pycache__
+DACON/search_financial_info/db
+DACON/search_financial_info/open/train_source
+DACON/search_financial_info/open/test_source
+DACON/search_financial_info/processing_pdf
+DACON/search_financial_info/open.zip
+DACON/search_financial_info/open.zip:Zone.Identifier
